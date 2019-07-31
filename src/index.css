@@ -1,13 +1,79 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.image--mac > img {
+	width: 400px;
+	height: 400px;
+}
+
+.page--global {
+	display: flex;
+	padding-top: 100px;
+	padding-left: 400px;
+	margin-bottom: 500px;
+}
+
+.page--content {
+	padding-left: 100px;
+}
+
+.buttongroup1 {
+	display: flex;
+}
+
+.buttongroup1 .firstbutton {
+	border: 1px solid grey;
+	padding: 50px 100px;
+}
+.buttongroup1 .secondbutton {
+	border: 1px solid grey;
+	padding: 50px 100px;
+	margin-left: 10px;
+}
+
+.buttongroup2 {
+	display: flex;
+}
+
+.buttongroup2 .firstbutton {
+	border: 1px solid grey;
+	padding: 50px 100px;
+}
+
+.buttongroup2 .secondbutton {
+	border: 1px solid grey;
+	padding: 50px 112px;
+	margin-left: 10px;
+}
+
+.box {
+	border: 1px solid grey;
+	margin: 10px 20px 10px 0px;
+	padding: 15px 20px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.box.selected {
+	border: 2px solid blue;
+}
+
+.box div {
+	padding: 10px 10px;
+}
+.firstbutton.selected {
+	border: 2px solid blue;
+}
+
+.secondbutton.selected {
+	border: 2px solid blue;
 }
